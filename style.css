@@ -1,4 +1,4 @@
-/* ===== Basic Body Styling ===== */
+/* ===== Body ===== */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-/* ===== Header Section ===== */
+/* ===== Header ===== */
 header {
     background-color: #ffe0ec;
     padding: 15px 20px;
@@ -40,43 +40,38 @@ nav a:hover {
     background: linear-gradient(to bottom, #ffe0ec, #ffffff);
 }
 
-/* ===== Profile Image (Square with Curved Edges) ===== */
+/* ===== Profile Image ===== */
 .profile-img {
     width: 200px;
     height: 200px;
-    object-fit: cover;            /* Proper cropping */
-    border-radius: 20px;          /* Curved square */
+    object-fit: cover;
+    border-radius: 20px;
     box-shadow: 0 8px 20px rgba(255, 182, 193, 0.6);
     margin-bottom: 20px;
 }
 
-/* ===== Hero Text ===== */
+/* ===== Headings ===== */
 .hero h1 {
     margin-bottom: 8px;
     color: #c2185b;
-}
-
-.hero p {
-    margin-top: 0;
-    font-size: 16px;
-}
-
-/* ===== All Sections ===== */
-section {
-    padding: 35px 20px;
 }
 
 section h2 {
     color: #c2185b;
 }
 
-/* ===== Skills Section ===== */
+/* ===== Sections ===== */
+section {
+    padding: 35px 20px;
+}
+
+/* ===== Lists ===== */
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
 
-/* ===== Projects Section ===== */
+/* ===== Projects ===== */
 .project-card {
     background-color: #ffffff;
     border: 1px solid #f3c2d3;
@@ -86,9 +81,13 @@ ul {
     box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
 }
 
-/* ===== Contact Section ===== */
-#contact p {
-    margin: 6px 0;
+/* ===== Links ===== */
+a {
+    color: #c2185b;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* ===== Footer ===== */
@@ -98,3 +97,5 @@ footer {
     padding: 12px;
     color: #555;
 }
+
+
