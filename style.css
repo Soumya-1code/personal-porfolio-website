@@ -1,4 +1,4 @@
-/* ===== Body ===== */
+/*  Body  */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-/* ===== Header ===== */
+/*  Header  */
 header {
     background-color: #ffe0ec;
     padding: 15px 20px;
@@ -33,14 +33,14 @@ nav a:hover {
     color: #c2185b;
 }
 
-/* ===== Hero Section ===== */
+/*  Hero Section  */
 .hero {
     text-align: center;
     padding: 50px 20px;
     background: linear-gradient(to bottom, #ffe0ec, #ffffff);
 }
 
-/* ===== Profile Image ===== */
+/*  Profile Image  */
 .profile-img {
     width: 200px;
     height: 200px;
@@ -50,7 +50,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* ===== Headings ===== */
+/*  Headings  */
 .hero h1 {
     margin-bottom: 8px;
     color: #c2185b;
@@ -60,18 +60,18 @@ section h2 {
     color: #c2185b;
 }
 
-/* ===== Sections ===== */
+/*  Sections  */
 section {
     padding: 35px 20px;
 }
 
-/* ===== Lists ===== */
+/*  Lists  */
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
 
-/* ===== Projects ===== */
+/*  Projects  */
 .project-card {
     background-color: #ffffff;
     border: 1px solid #f3c2d3;
@@ -81,7 +81,7 @@ ul {
     box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
 }
 
-/* ===== Links ===== */
+/*  Links  */
 a {
     color: #c2185b;
 }
@@ -90,12 +90,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ===== Footer ===== */
+/*  Footer  */
 footer {
     background-color: #ffe0ec;
     text-align: center;
     padding: 12px;
     color: #555;
 }
+
 
 
